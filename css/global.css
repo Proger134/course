@@ -11,21 +11,21 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/../resources/fonts/Roboto-Light.woff2.woff2") format("woff2");
+  src: url("../fonts/../fonts/Roboto-Light.woff2") format("woff2");
   font-weight: 300;
   font-display: swap;
   font-style: normal; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/../resources/fonts/Roboto-Regular.woff2.woff2") format("woff2");
+  src: url("../fonts/../fonts/Roboto-Regular.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
   font-style: normal; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/../resources/fonts/Roboto-Medium.woff2.woff2") format("woff2");
+  src: url("../fonts/../fonts/Roboto-Medium.woff2") format("woff2");
   font-weight: 500;
   font-display: swap;
   font-style: normal; }
@@ -50,7 +50,6 @@ a {
   text-decoration: none; }
 
 ul {
-  list-style: none;
   padding: 0; }
 
 .is-outer {
@@ -132,5 +131,12 @@ ul {
       font-size: 18px; } }
   .button:hover, .button:focus {
     background-color: #2752be; }
+
+.title {
+  font-weight: 500;
+  font-size: 36px; }
+  @media (max-width: 768px) {
+    .title {
+      font-size: 29px; } }
 
 /*# sourceMappingURL=global.css.map */
